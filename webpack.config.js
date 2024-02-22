@@ -40,6 +40,10 @@ let config = {
           to: __dirname + '/app/dist/css',
         },
         {
+          from: __dirname + '/app/fonts',
+          to: __dirname + '/app/dist/fonts',
+        },
+        {
           from: __dirname + '/app/img',
           to: __dirname + '/app/dist/img',
         },

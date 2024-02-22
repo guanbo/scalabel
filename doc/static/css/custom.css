@@ -11,6 +11,7 @@ h6,
 legend,
 p.caption {
   font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+  src: url('../fonts/lato-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /*
