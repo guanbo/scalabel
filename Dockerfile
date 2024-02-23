@@ -39,7 +39,8 @@ RUN python3.9 -m pip install -U pip && \
 
 RUN python3.9 setup.py install
 
-RUN npm install -g npm@latest && npm ci --max_old_space_size=8000
+# RUN npm install -g npm@latest && npm ci --max_old_space_size=8000
+RUN npm ci --max_old_space_size=8000
 
 
 RUN ./node_modules/.bin/webpack --config webpack.config.js --mode=production; \
